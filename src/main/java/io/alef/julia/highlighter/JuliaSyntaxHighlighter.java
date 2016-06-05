@@ -14,25 +14,25 @@ import static com.intellij.openapi.editor.colors.TextAttributesKey.createTextAtt
 
 
 public class JuliaSyntaxHighlighter extends SyntaxHighlighterBase {
-    private static final TextAttributesKey COMMA = createTextAttributesKey("JULIA_COMMA", DefaultLanguageHighlighterColors.COMMA);
+    public static final TextAttributesKey COMMA = createTextAttributesKey("JULIA_COMMA", DefaultLanguageHighlighterColors.COMMA);
     private static final TextAttributesKey[] COMMA_KEYS = pack(COMMA);
-    private static final TextAttributesKey SEMICOLON = createTextAttributesKey("JULIA_SEMICOLON", DefaultLanguageHighlighterColors.SEMICOLON);
+    public static final TextAttributesKey SEMICOLON = createTextAttributesKey("JULIA_SEMICOLON", DefaultLanguageHighlighterColors.SEMICOLON);
     private static final TextAttributesKey[] SEMICOLON_KEYS = pack(SEMICOLON);
-    private static final TextAttributesKey COMMENT = createTextAttributesKey("JULIA_COMMENT", DefaultLanguageHighlighterColors.LINE_COMMENT);
+    public static final TextAttributesKey COMMENT = createTextAttributesKey("JULIA_COMMENT", DefaultLanguageHighlighterColors.LINE_COMMENT);
     private static final TextAttributesKey[] COMMENT_KEYS = pack(COMMENT);
-    private static final TextAttributesKey NUMBER = createTextAttributesKey("JULIA_NUMBER", DefaultLanguageHighlighterColors.NUMBER);
+    public static final TextAttributesKey NUMBER = createTextAttributesKey("JULIA_NUMBER", DefaultLanguageHighlighterColors.NUMBER);
     private static final TextAttributesKey[] NUMBER_KEYS = pack(NUMBER);
-    private static final TextAttributesKey STRING = createTextAttributesKey("JULIA_STRING", DefaultLanguageHighlighterColors.STRING);
+    public static final TextAttributesKey STRING = createTextAttributesKey("JULIA_STRING", DefaultLanguageHighlighterColors.STRING);
     private static final TextAttributesKey[] STRING_KEYS = pack(STRING);
-    private static final TextAttributesKey IDENTIFIER = createTextAttributesKey("JULIA_ID", DefaultLanguageHighlighterColors.IDENTIFIER);
+    public static final TextAttributesKey IDENTIFIER = createTextAttributesKey("JULIA_ID", DefaultLanguageHighlighterColors.IDENTIFIER);
     private static final TextAttributesKey[] IDENTIFIER_KEYS = pack(IDENTIFIER);
-    private static final TextAttributesKey OPERATOR = createTextAttributesKey("JULIA_OPERATOR", DefaultLanguageHighlighterColors.OPERATION_SIGN);
+    public static final TextAttributesKey OPERATOR = createTextAttributesKey("JULIA_OPERATOR", DefaultLanguageHighlighterColors.OPERATION_SIGN);
     private static final TextAttributesKey[] OPERATOR_KEYS = pack(OPERATOR);
-    private static final TextAttributesKey BRACKETS = createTextAttributesKey("JULIA_BRACKETS", DefaultLanguageHighlighterColors.BRACKETS);
+    public static final TextAttributesKey BRACKETS = createTextAttributesKey("JULIA_BRACKETS", DefaultLanguageHighlighterColors.BRACKETS);
     private static final TextAttributesKey[] BRACKETS_KEYS = pack(BRACKETS);
-    private static final TextAttributesKey KEYWORD = createTextAttributesKey("JULIA_KEYWORD", DefaultLanguageHighlighterColors.KEYWORD);
+    public static final TextAttributesKey KEYWORD = createTextAttributesKey("JULIA_KEYWORD", DefaultLanguageHighlighterColors.KEYWORD);
     private static final TextAttributesKey[] KEYWORD_KEYS = pack(KEYWORD);
-    private static final TextAttributesKey BAD_CHARACTER = createTextAttributesKey("JULIA_BAD_CHARACTER", DefaultLanguageHighlighterColors.INVALID_STRING_ESCAPE);
+    public static final TextAttributesKey BAD_CHARACTER = createTextAttributesKey("JULIA_BAD_CHARACTER", DefaultLanguageHighlighterColors.INVALID_STRING_ESCAPE);
     private static final TextAttributesKey[] BAD_CHARACTER_KEYS = pack(BAD_CHARACTER);
     private static final TextAttributesKey[] EMPTY_KEYS = new TextAttributesKey[0];
 

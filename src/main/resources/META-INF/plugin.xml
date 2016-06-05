@@ -32,6 +32,7 @@
         <runConfigurationProducer implementation="io.alef.julia.runner.JuliaRunConfigurationProducer"/>
         <configurationType implementation="io.alef.julia.runner.JuliaApplicationConfigurationType"/>
         <programRunner implementation="io.alef.julia.runner.JuliaDefaultProgramRunner"/>
+        <colorSettingsPage implementation="io.alef.julia.highlighter.JuliaSyntaxHighlighterSettingsPage"/>
     </extensions>
 
     <application-components>
